@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Jockey One';
+  src: url('fonts/JockeyOne-Regular.woff') format('woff'),
+       url('fonts/JockeyOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('fonts/Kanit-Regular.woff') format('woff'),
+       url('fonts/Kanit-Regular.ttf') format('truetype');
+}
+.titulo-hero { 
+    font-family: 'Jockey One', sans-serif;
+    font-size: 50px;
+}
+
+.subtitulo-hero {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
