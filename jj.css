@@ -18,3 +18,43 @@
     font-family: 'Kanit', sans-serif;
     font-size: 20px;
 }
+.solucion {
+  background-color: #f5f0c9;
+  text-align: center;
+  padding: 80px 40px;
+}
+
+.solucion h2 {
+  font-family: 'Jockey One', sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.solucion p {
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.solucion-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 👈 dos columnas */
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto; /* centrar la grilla */
+}
+
+.solucion-grid .item {
+  text-align: center;
+}
+
+.solucion-grid img {
+  width: 90px;
+  margin-bottom: 15px;
+}
+
+.solucion-grid p {
+  font-size: 16px;
+  line-height: 1.4;
+}
