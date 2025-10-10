@@ -306,6 +306,54 @@
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-10px); }
     }
+
+    /* ===== Contacto ===== */
+    .contacto {
+      text-align: center;
+      padding: 80px 40px;
+      background-color: rgba(255, 255, 255, 0.6);
+      border-top: 3px solid #465c13;
+    }
+
+    .contacto h2 {
+      font-family: 'Jockey One', sans-serif;
+      font-size: 42px;
+      margin-bottom: 40px;
+    }
+
+    .contacto .correo {
+      background-color: #5b7420;
+      color: #fff;
+      padding: 15px 30px;
+      border-radius: 12px;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 20px auto;
+      display: inline-block;
+    }
+
+    .contacto-icons {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+
+    .contacto-icons div {
+      text-align: center;
+    }
+
+    .contacto-icons img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+    }
+
+    .contacto-icons p {
+      font-size: 18px;
+      font-weight: 600;
+    }
   </style>
 </head>
 
@@ -394,5 +442,31 @@
     </div>
     <img src="imgs/billesonri.png" alt="Monetini sonriente" class="personaje">
   </section>
+
+<!-- Contacto -->
+<section class="contacto" id="contacto" style="
+  padding: 50px 20px;
+  text-align: center;
+  background: transparent; /* 🔥 esto deja ver el fondo de atrás */
+  color: #333;
+   border: none;          
+  box-shadow: none;      
+  margin: 0;            
+">
+  <h2 style="font-size: 2rem; margin-bottom: 20px;">Forma de contactarnos</h2>
+  <p class="correo" style="font-size: 1.2rem; margin-bottom: 30px; background: #5d7e2d; color: white; padding: 10px 20px; border-radius: 8px; display: inline-block;">xxxx@gmail.com</p>
+  
+  <div class="contacto-icons" style="display: flex; justify-content: center; gap: 40px; margin-top: 30px;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img src="imgs/ig.png" alt="Instagram" style="width: 60px; margin-bottom: 10px;">
+      <p>Instagram</p>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img src="imgs/twit.png" alt="Twitter/X" style="width: 60px; margin-bottom: 10px;">
+      <p>X/Twitter</p>
+    </div>
+  </div>
+</section>
+
 </body>
 </html>
